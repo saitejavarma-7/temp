@@ -1,6 +1,6 @@
 // this function is to make tabs active on click
 function clicked(event){
-    var elements= ['home', 'blog']
+    var elements= ['home', 'contact']
     console.log(event);
     for (var i=0; i<elements.length; i++){
       var elem= document.getElementById(elements[i]);
